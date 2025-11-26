@@ -11,3 +11,10 @@
 {"question":"Replace a character in a string.","steps":["Read s","Read old char","Read new char","Replace and print"],"final_code":"s=input();old=input().strip();new=input().strip();print(s.replace(old,new))"}
 {"question":"Check if a string is a palindrome.","steps":["Read s","Remove spaces","Lowercase s","Compare with reverse"],"final_code":"s=input().replace(' ','').lower();print('Palindrome' if s==s[::-1] else 'Not palindrome')"}
 {"question":"Count vowels in a string.","steps":["Read s","Lowercase s","Loop and count vowels","Print count"],"final_code":"s=input().lower();print(sum(1 for c in s if c in 'aeiou'))"}
+{"question":"Count consonants in a string.","steps":["Read s","Lowercase s","Count letters not vowels","Print count"],"final_code":"s=input().lower();print(sum(1 for c in s if c.isalpha() and c not in 'aeiou'))"}
+{"question":"Remove spaces from a string.","steps":["Read s","Replace spaces","Print result"],"final_code":"s=input();print(s.replace(' ',''))"}
+{"question":"Convert string to uppercase.","steps":["Read s","Use upper()","Print uppercase"],"final_code":"s=input();print(s.upper())"}
+{"question":"Convert string to lowercase.","steps":["Read s","Use lower()","Print lowercase"],"final_code":"s=input();print(s.lower())"}
+{"question":"Count words in a sentence.","steps":["Read sentence","Split words","Print length"],"final_code":"s=input();print(len(s.split()))"}
+{"question":"Find length of a string.","steps":["Read s","Use len","Print length"],"final_code":"s=input();print(len(s))"}
+{"question":"Replace a character in a string.","steps":["Read s","Read old character","Read new character","Replace and print"],"final_code":"s=input();old=input().strip();new=input().strip();print(s.replace(old,new))"}
