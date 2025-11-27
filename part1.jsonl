@@ -1,4 +1,4 @@
-{"question":"Check if a number is even or odd.","steps":["Read an integer n","Check n % 2 == 0","Print whether it is even or odd"],"final_code":"n=int(input());print('Even' if n%2==0 else 'Odd')"}
+[{"question":"Check if a number is even or odd.","steps":["Read an integer n","Check n % 2 == 0","Print whether it is even or odd"],"final_code":"n=int(input());print('Even' if n%2==0 else 'Odd')"}
 {"question":"Find the factorial of a number.","steps":["Read n","Set f=1","Loop from 1 to n","Multiply and print f"],"final_code":"n=int(input());f=1;for i in range(1,n+1):f*=i;print(f)"}
 {"question":"Check if a number is prime.","steps":["Read n","handle n < 2","Check divisors up to sqrt(n)","Print prime or not"],"final_code":"import math;n=int(input());p=n>=2 and all(n%i!=0 for i in range(2,int(math.sqrt(n))+1));print('Prime' if p else 'Not prime')"}
 {"question":"Find the greatest of two numbers.","steps":["Read a and b","Compare a and b","Print greater number"],"final_code":"a,b=map(int,input().split());print(a if a>b else b)"}
@@ -19,4 +19,4 @@
 {"question":"Find length of a string.","steps":["Read s","Use len","Print length"],"final_code":"s=input();print(len(s))"}
 {"question":"Replace a character in a string.","steps":["Read s","Read old character","Read new character","Replace and print"],"final_code":"s=input();old=input().strip();new=input().strip();print(s.replace(old,new))"}
 {"question":"Find the largest of three numbers.","steps":["Read a,b,c","Compare using max()","Print the largest value"],"final_code":"a,b,c=map(int,input().split());print(max(a,b,c))"}
-{"question":"Check if a string contains only digits.","steps":["Read input string","Use str.isdigit()","Print True or False"],"final_code":"s=input();print(s.isdigit())"}
+{"question":"Check if a string contains only digits.","steps":["Read input string","Use str.isdigit()","Print True or False"],"final_code":"s=input();print(s.isdigit())"}]
