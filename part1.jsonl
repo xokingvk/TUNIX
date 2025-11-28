@@ -37,6 +37,7 @@
 {"question":"Find the product of digits of a number.","steps":["Read number as string","Remove minus sign","Multiply digits one by one"],"final_code":"n=input().lstrip('-')\\nprod=1\\nfor d in n: prod*=int(d)\\nprint(prod)"}
 {"question":"Print all characters of a string.","steps":["Read string s","Loop through characters","Print each character"],"final_code":"s=input()\\nfor c in s:\\n    print(c)"}
 {"question":"Print numbers divisible by 3 in a range.","steps":["Read start and end","Loop through range","Check divisibility","Print numbers divisible by 3"],"final_code":"a,b=map(int,input().split())\\nfor i in range(a,b+1):\\n    if i%3==0: print(i)"}
+{"question":"Print the squares of numbers from 1 to N.","steps":["Read integer N","Loop from 1 to N","Compute i*i","Print each squared value"],"final_code":"n=int(input())\\nfor i in range(1,n+1):\\n    print(i*i)"}
 {"question":"Find the largest of three numbers.","steps":["Read a,b,c","Compare using max()","Print the largest value"],"final_code":"a,b,c=map(int,input().split());print(max(a,b,c))"}
 {"question":"Check if a string contains only digits.","steps":["Read input string","Use str.isdigit()","Print True or False"],"final_code":"s=input();print(s.isdigit())"}
 {"question":"Calculate the area of a circle.","steps":["Read radius r","Apply formula area = 3.14*r*r","Print area"],"final_code":"r=float(input());print(3.14*r*r)"}
