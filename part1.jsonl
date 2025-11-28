@@ -36,4 +36,5 @@
 {"question":"Convert minutes to hours and minutes.","steps":["Read total minutes","Compute hours = m // 60","Compute minutes = m % 60","Print result"],"final_code":"m=int(input());print(m//60,m%60)"}
 {"question":"Check if a number is a palindrome.","steps":["Read n as string","Compare n with n[::-1]","Print result"],"final_code":"n=input();print('Palindrome' if n==n[::-1] else 'Not palindrome')"}
 {"question":"Find the GCD of two numbers.","steps":["Read a and b","Use math.gcd","Print GCD"],"final_code":"import math;a,b=map(int,input().split());print(math.gcd(a,b))"}
+{"question":"Find the LCM of two numbers.","steps":["Read a and b","Compute using formula a*b//gcd","Print LCM"],"final_code":"import math;a,b=map(int,input().split());print(a*b//math.gcd(a,b))"}
 {"question":"Check if a year is a leap year.","steps":["Read year","Apply leap year rules","Print Yes or No"],"final_code":"y=int(input());print('Yes' if (y%4==0 and y%100!=0) or (y%400==0) else 'No')"}
