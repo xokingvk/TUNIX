@@ -24,5 +24,16 @@
 {"question":"Find the area of a rectangle.","steps":["Read length and width","Multiply length and width","Print area"],"final_code":"l,w=map(float,input().split());print(l*w)"}
 {"question":"Find the perimeter of a rectangle.","steps":["Read length and width","Compute 2*(l+w)","Print perimeter"],"final_code":"l,w=map(float,input().split());print(2*(l+w))"}
 {"question":"Find the square root of a number.","steps":["Read n","Compute n**0.5","Print result"],"final_code":"n=float(input());print(n**0.5)"}
-
- 
+{"question":"Calculate the circumference of a circle.","steps":["Read radius r","Apply formula 2*3.14*r","Print circumference"],"final_code":"r=float(input());print(2*3.14*r)"}
+{"question":"Convert Celsius to Fahrenheit.","steps":["Read Celsius value C","Apply F = C*9/5 + 32","Print F"],"final_code":"c=float(input());print(c*9/5+32)"}
+{"question":"Convert Fahrenheit to Celsius.","steps":["Read Fahrenheit value F","Apply C = (F-32)*5/9","Print C"],"final_code":"f=float(input());print((f-32)*5/9)"}
+{"question":"Check if a character is a vowel.","steps":["Read character c","Lowercase c","Check if in 'aeiou' and print result"],"final_code":"c=input().strip().lower();print('Vowel' if c in 'aeiou' else 'Not vowel')"}
+{"question":"Count digits in an integer.","steps":["Read n","Remove leading minus if present","Count digits using len()","Print count"],"final_code":"n=input().lstrip('-');print(len(n))"}
+{"question":"Find the last digit of a number.","steps":["Read n","Compute n % 10","Print last digit"],"final_code":"n=int(input());print(n%10)"}
+{"question":"Sum the digits of a number.","steps":["Read n","Remove minus if present","Convert digits to int","Sum digits","Print result"],"final_code":"n=input().lstrip('-');print(sum(int(d) for d in n))"}
+{"question":"Check if a number is a multiple of 7.","steps":["Read n","Check n % 7 == 0","Print Yes or No"],"final_code":"n=int(input());print('Yes' if n%7==0 else 'No')"}
+{"question":"Calculate simple interest.","steps":["Read P, R, T","Apply formula P*R*T/100","Print SI"],"final_code":"p,r,t=map(float,input().split());print(p*r*t/100)"}
+{"question":"Convert minutes to hours and minutes.","steps":["Read total minutes","Compute hours = m // 60","Compute minutes = m % 60","Print result"],"final_code":"m=int(input());print(m//60,m%60)"}
+{"question":"Check if a number is a palindrome.","steps":["Read n as string","Compare n with n[::-1]","Print result"],"final_code":"n=input();print('Palindrome' if n==n[::-1] else 'Not palindrome')"}
+{"question":"Find the GCD of two numbers.","steps":["Read a and b","Use math.gcd","Print GCD"],"final_code":"import math;a,b=map(int,input().split());print(math.gcd(a,b))"}
+{"question":"Check if a year is a leap year.","steps":["Read year","Apply leap year rules","Print Yes or No"],"final_code":"y=int(input());print('Yes' if (y%4==0 and y%100!=0) or (y%400==0) else 'No')"}
