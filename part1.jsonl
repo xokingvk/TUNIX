@@ -20,3 +20,9 @@
 {"question":"Replace a character in a string.","steps":["Read s","Read old character","Read new character","Replace and print"],"final_code":"s=input();old=input().strip();new=input().strip();print(s.replace(old,new))"}
 {"question":"Find the largest of three numbers.","steps":["Read a,b,c","Compare using max()","Print the largest value"],"final_code":"a,b,c=map(int,input().split());print(max(a,b,c))"}
 {"question":"Check if a string contains only digits.","steps":["Read input string","Use str.isdigit()","Print True or False"],"final_code":"s=input();print(s.isdigit())"}
+{"question":"Calculate the area of a circle.","steps":["Read radius r","Apply formula area = 3.14*r*r","Print area"],"final_code":"r=float(input());print(3.14*r*r)"}
+{"question":"Find the area of a rectangle.","steps":["Read length and width","Multiply length and width","Print area"],"final_code":"l,w=map(float,input().split());print(l*w)"}
+{"question":"Find the perimeter of a rectangle.","steps":["Read length and width","Compute 2*(l+w)","Print perimeter"],"final_code":"l,w=map(float,input().split());print(2*(l+w))"}
+{"question":"Find the square root of a number.","steps":["Read n","Compute n**0.5","Print result"],"final_code":"n=float(input());print(n**0.5)"}
+
+ 
