@@ -1,8 +1,11 @@
-arr=list(map(int,input().split()));k=int(input());k%=len(arr);print(arr[-k:]+arr[:-k])
+src = open("input.txt", "r")
+dst = open("output.txt", "w")
 
+content = src.read()
+dst.write(content)
 
-
-
+src.close()
+dst.close()
 
 
 
